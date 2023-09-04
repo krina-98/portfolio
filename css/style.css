@@ -1,0 +1,356 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header{
+    background-color: purple;
+    height: 61rem;
+}
+.logo {
+        color: white;
+        padding: 1rem;
+        margin-left: 1.5rem;
+        margin-right: 16rem;
+        font-size: 1rem;
+}
+
+
+.navigation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1.1rem;
+}
+.right{
+    margin-right: 4rem;
+}
+.right ul{
+    display: flex;
+    list-style: none;
+}
+.right ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    padding: 1rem;
+    font-size: .7rem;
+}
+
+.sign_btn{
+    text-decoration: none;
+    font-size: .7rem;
+    background-color: white;
+    color: black;
+    padding: .4rem 1rem;
+    border-radius: 1rem;
+    border: none;
+    margin-right: 1.9rem;
+}
+
+.img1 {
+    position: relative;
+    margin-left: 3.5rem;
+    margin-top: 1rem;
+    height: 8rem;
+    width: 11rem;
+  }
+
+  .img2 {
+    position: absolute;
+    top: 5.7rem;
+    right: 3rem;
+    height: 20rem;
+    width: 30rem;
+    z-index: 2;
+  }
+
+  .serch_title {
+    position: relative;
+    z-index: 4;
+    top: 1rem;
+    left: 3.5rem;
+    color: white;
+  }
+  .serch_title h2{
+    font-size: 2rem;
+  }
+  .serch {
+    position: relative;
+    z-index: 4;
+    top: 2rem;
+    left: 3.6rem;
+    
+  }
+
+  .serch input {
+    width: 18rem;
+    height: 1.1rem;
+    border-radius: 3rem;
+    padding: 1rem;
+    font-size: .7rem;
+    border: none;
+  }
+
+  .serch input:hover{
+    border: none;
+  }
+ 
+
+.serch_icon {
+  position: relative;
+
+  background-color: orange;
+
+  border-radius: 50%;
+
+  color: white;
+  top: 0rem;
+  left: -2rem;
+  padding: .3rem;
+  font-size: .7rem;
+  height: 1.4rem;
+  width: 1.4rem;
+}
+
+.about {
+    position: absolute;
+    background-color: rgb(94, 2, 102);
+    color: white;
+    top: 27rem;
+    left: 4rem;
+    right: 2.7rem;
+    padding: 4rem 3rem 1rem 3rem;
+    font-size: .8rem;
+    line-height: 1.2rem;
+    
+  }
+.f-s{
+    font-size: .6rem;
+    color: whitesmoke;
+    padding: 1rem 0 .5rem 0;
+}
+.f-red{
+    color: orangered;
+    font-size: .7rem;
+}
+
+.img3 {
+    position: absolute;
+    top: 43rem;
+    left: 4.2rem;
+    width: 16rem;
+  }
+
+  .side_content {
+    position: absolute;
+    left: 24rem;
+    top: 44rem;
+    right: 8rem;
+    
+    
+  }
+.side_content h3{
+    font-size: 1.3rem;
+    line-height: 1.7rem;
+    color: white;
+}
+.side_content div{
+    font-size: .6rem;
+    color: grey;
+    line-height: 1rem;
+    padding-top: 1.3rem;
+}
+
+.box-item {
+    display: flex;
+    position: absolute;
+    top: 56rem;
+    left: 13.4rem;
+    right: 1rem;
+  
+}
+.box{
+    
+    background-color: rgb(255, 170, 0);
+    height: 2rem;
+    width: 8rem;
+    margin: .8rem;
+    padding: 6rem 2rem 4.3rem 1rem;
+    z-index: 2;
+    line-height: 1.2rem;
+}
+
+.box p{
+    color: brown;
+    opacity: 0.4;
+}
+/* main content css is here */
+
+.cases {
+    position: relative;
+    top: 10rem;
+    left: 3.4rem;
+    
+    width: 19rem;
+    line-height: 1.2rem;
+    padding: 0 1.5rem 0 0;
+  }
+
+  .fig-1 {
+    position: relative;
+    top: 3.2rem;
+    left: 26rem;
+  }
+
+  .cases div h4 {
+    line-height: 1.3rem;
+    font-size: 1.2rem;
+    word-spacing: .5rem;
+    
+  }
+
+  .f-1{
+    height: 19rem;
+    width: 21.3rem;
+  }
+
+  .same{
+    padding: 1rem 33rem 2rem 0;
+  }
+
+  .same h5{
+    padding-bottom: .9rem;
+  }
+.same p{
+  font-size: .7rem;
+  color: grey;
+  opacity: .6;
+  line-height: 1rem;
+}
+
+.fig-2 {
+  position: relative;
+  top: -11.8rem;
+  left: 3rem;
+}
+
+.f-2{
+  height: 19rem;
+  width: 18.3rem;
+}
+
+.fig-3 {
+  position: relative;
+  top: -22.8rem;
+  left: 28rem;
+}
+
+.f-3{
+  height: 12rem;
+  width: 18.3rem;
+}
+
+
+/* section tag css */
+
+section {
+  position: relative;
+  top: -24rem;
+  left: 4rem;
+  
+}
+section h2{
+  font-size: 1.6rem;
+}
+.bx{
+  padding-top: 4rem;
+}
+.step{
+  background-color: orange;
+  display: inline;
+  padding: .5rem;
+}
+
+.heading h5{
+  font-size: .8rem;
+  padding-top: 1rem;
+  color: black;
+}
+.heading-content{
+  padding-right: 38rem;
+  font-size: .6rem;
+  color: grey;
+  opacity: .5;
+}
+.b-2 {
+  position: relative;
+  top: -8.9rem;
+  left: 14.5rem;
+}
+.b-3 {
+  position: relative;
+  top: -17.9rem;
+  left: 29rem;
+}
+
+
+.concept{
+  position: relative;
+  top: -16rem;
+}
+.concept-heading{
+  position: relative;
+  top: 1rem;
+}
+
+.concept-content{
+  font-size: .7rem;
+  width: 20rem;
+  position: relative;
+  left: 19rem;
+  top: -2rem;
+}
+
+.grid-container {
+  display: grid;
+  gap: 50px 100px;
+  grid-template-columns: auto auto auto auto auto;
+  background-color: rgb(236, 231, 231);
+  padding: 83px 98px 20px 109px;
+  
+}
+
+.grid-item {
+  background-color: rgb(236, 231, 231);
+  border:none;
+  padding: 18px;
+  font-size: 10px;
+  text-align: start;
+}
+.grid-item div p{
+  color: grey;
+  font-size: .6rem;
+  
+}
+footer p{
+  color: grey;
+  font-size: .6rem;
+  
+}
+
+.end{
+  color: grey;
+  font-size: .7;
+  padding: 0 0 1.2rem 4rem;
+   background-color: rgb(236, 231, 231);
+}
+.footer-s {
+  position: absolute;
+  top: 153rem;
+  width: 100%;
+}
